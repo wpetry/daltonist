@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+R/webscraper.R
+data/colorscrape.RData
+
+.DS_Store

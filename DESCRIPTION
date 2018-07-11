@@ -1,0 +1,18 @@
+Package: daltonist
+Type: Package
+Title: Colorblindness Accessibility Tools 
+Version: 0.1.0
+Author: William K. Petry [aut, cre] (<https://orcid.org/0000-0002-5230-5987>>)
+Maintainer: William K. Petry <william.petry@usys.ethz.ch>
+Description: Provides tools for the colorblind to identify colors and for the
+    non-colorblind to ensure accessibility of color palettes.
+URL: https://github.com/wpetry/daltonist
+BugReports: https://github.com/wpetry/daltonist/issues
+License: MIT + file LICENSE
+Depends: R (>= 3.3.0)
+Imports: colorspace (>= 1.4-0), colorscience (>= 1.0.4), httr (>= 1.3.1), jsonlite (>= 1.5)
+Suggests: colorblindr, ggplot2 (>= 2.2.1.900), dplyr (>= 0.7-0), tidyr (>= 0.7-2),
+    tibble (>= 1.4.1), pracma
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+LazyData: true
